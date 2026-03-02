@@ -1,0 +1,101 @@
+body {
+  margin: 0px;
+  font-size: 18px;
+  background-color: #000
+}
+
+h1 {
+  font-family: 'Lavishly Yours', sans-serrif;
+  color: #450068;
+  background-color: #B3B3B3;
+  text-align: center;
+  text-shadow: 3px 3px grey;
+  margin-right: 110px;
+  margin-left: 110px;
+  border-radius: 30px;
+  max-width: 500px;
+}
+
+h2 {
+  font-family: 'Lavishly Yours', sans-serrif;
+  font-size: 2rem;
+  color: #450068;
+  background-color: white;
+  margin-right: 380px;
+  border-radius: 15px;
+}
+
+p {
+  font-family: Kalam;
+  color: A54F6B
+}
+
+div.card {
+  background-color: #575757;
+  margin-left: 65px;
+  margin-right: 65px;
+  padding: 0.7rem;
+  border-radius: 15px;
+  border: solid 3px #D4D4D4
+}
+
+hr {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+h2.card-1 {
+  margin-right: 345px;
+  max-width: 278px;
+  text-decoration: underline
+}
+
+h2.card-2 {
+  margin-right: 340px;
+  max-width: 230px;
+  text-decoration: underline
+}
+
+h2.card-3 {
+  margin-right: 340px;
+  max-width: 278px;
+  text-decoration: underline
+}
+
+h2.card-4 {
+  margin-right: 390px;
+  max-width: 225px;
+  text-decoration: underline
+}
+
+h2.card-5 {
+  margin-right: 480px;
+  max-width: 130px;
+  text-decoration: underline
+}
+
+#footer {
+  background-color: #B3B3B3;
+  margin-right: 625px;
+  border-radius: 18px;
+  text-align: center;
+  margin: auto;
+  max-width: 170px
+}
+
+a {
+  color: #4A2B80;
+  font-size: 20px;
+  font-style: italic;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  font-size: 25px
+}
+
+p.intro {
+  color: white;
+  margin-left: 10px
+}
