@@ -3,6 +3,14 @@ body {
   font-family: sans-serrif;
 }
 
+#bg-img {
+  position: fixed;
+  top: 0px;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+}
+
 p, h1, h2 {
   color: purple;
   font-size: 15px
