@@ -17,6 +17,31 @@ p, h1, h2 {
   font-size: 15px
 }
 
+h1 {
+ font-family: 'Lavishly Yours', sans-sarrif;
+  color: #450068;
+  background-color: #B3B3B3;
+  text-align: center;
+  text-shadow: 3px 3px grey;
+  margin-right: 110px;
+  margin-left: 110px;
+  border-radius: 30px;
+  max-width: 500px;
+}
+
+h2 {
+  font-family: 'Lavishly Yours', sans-serrif;
+  font-size: 2rem;
+  color: #450068;
+  background-color: white;
+  margin-right: 380px;
+  border-radius: 15px;
+}
+
+p {
+  color: FFF;
+}
+
 a {
   color: green;
   font-size: 20px
