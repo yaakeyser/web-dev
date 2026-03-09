@@ -12,11 +12,6 @@ body {
   height: 100vh;
 }
 
-p, h1, h2 {
-  color: purple;
-  font-size: 15px
-}
-
 h1 {
  font-family: 'Lavishly Yours', sans-sarrif;
   color: #450068;
@@ -26,7 +21,8 @@ h1 {
   margin-right: 110px;
   margin-left: 110px;
   border-radius: 30px;
-  max-width: 500px;
+  max-width: 300px;
+  font-size: 4rem
 }
 
 h2 {
