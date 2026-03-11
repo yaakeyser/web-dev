@@ -4,12 +4,6 @@ a {
   font-size: 120%;
 }
 
-h1 {
-  width: 50%;
-  text-align: center;
-  margin: 10px auto;
-}
-
 #nav-menu {
   display: flex;
   flex: 1 1 auto;
