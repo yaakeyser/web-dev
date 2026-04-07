@@ -1,0 +1,178 @@
+body {
+  margin: 0px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 120%;
+}
+
+h1 {
+  width: 50%;
+  text-align: center;
+  margin: 10px auto;
+}
+
+#preheader {
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 0px;
+  padding: 10px 0px;
+  color: white;
+}
+
+#nav-menu {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: space-evenly;
+  position: sticky;
+  top: 0px;
+  background-color: darkblue;
+}
+
+.nav-div {
+  text-align: center;
+  flex-grow: 1;
+  position: relative;
+  top: 0px
+  
+}
+
+.nav-div a {
+  display: inline-block;
+  width: 100%;
+  padding: 10px 0px 15px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.nav-div ul {
+  display: none;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 1);
+  list-style-type: none;
+  padding-left: 0px;
+  margin: 0px;
+  width: 100%;
+}
+
+.nav-div:hover {
+  background-color: #000;
+}
+
+.nav-spacer {
+  flex-growth: 0px;
+  width: 0px; 
+  margin: 0px;
+  padding: 0px;
+  border: 1px solid black
+}
+
+.nav-div:hover ul {
+  display: block;
+}
+
+.nav-div ul a:hover {
+  background-color: violet;
+}
+
+#img-bg {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+}
+
+#content {
+  margin: 0px 15%;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 1px 10px 1px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+p {
+  color: white;
+}
+
+#footer {
+  background-color: rgba(0, 84, 11, 0.9);
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: space-evenly;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#published {
+  flex-grow: 1;
+  text-align: right;
+  margin; 0px 5%;
+}
+
+#address {
+  flex-grow: 1;
+  text-align: left;
+  margin: 0px 5%;
+}
+
+h1.headers {
+  color: white;
+  font-family: 'Meie Script', serif;
+}
+
+#header {
+  Font-family: 'unica one', serif
+}
+
+hr {
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.pic-div img {
+  width: 100px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.pic-div {
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid #2ca;
+  float: right;
+}
+
+.pic-div {
+  font-style: italic
+}
+
+.sm-img-1 {
+  float: left
+}
+
+#pic-div-1 {
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid #2ca;
+  float: left;
+  position: static;
+}
+
+#pic-div-1 {
+  font-style: italic
+}
+
+#pic-div-2 {
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid #2ca;
+  float: clear;
+}
+
+#pic-div-2 {
+  font-style: italic
+}
