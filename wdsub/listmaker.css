@@ -1,0 +1,45 @@
+
+body {
+  background-color: #05696B;
+  color: white;
+}
+
+li {
+  list-style-type: none;
+}
+
+li button {
+  background-color: rgba(255,255,255,100);
+  border: 0px;
+  padding-right: 5px;
+  margin: 10px;
+}
+
+#content {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  background-color: black;
+  margin: 10px auto;
+  max-width: 195px;
+  min-width: 195px;
+  border-radius: 13px;
+  font-family: monospace;
+}
+
+#list {
+  text-align: left;
+  margin: 10px auto;
+}
+
+#cnt-crd {
+  background-color: black;
+  min-height: 380px;
+  max-width: 340px;
+  margin: 8px auto;
+  border-radius: 15px;
+  border: blue solid 3px;
+}
